@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border: 1px solid #ccc;
+}
+
+.logo {
+    max-width: 140px;
+}
+
+.logo-img {
+    max-width: 100%;
+}
