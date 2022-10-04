@@ -4,7 +4,11 @@ body {
 }
 
 #header {
-    border: 1px solid #ccc;
+    border-bottom: 10px solid #ccc;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 16px;
 }
 
 .logo {
@@ -13,4 +17,25 @@ body {
 
 .logo-img {
     max-width: 100%;
+}
+
+.menu-links {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;
+}
+
+.menu-links li {
+    margin-right: 24px;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    display: flex;
+}
+.menu-links li a:hover {
+    transform: translateY(-2px);
 }
