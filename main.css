@@ -1,14 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 #header {
-    border-bottom: 10px solid #ccc;
+    border-bottom: 2px solid black;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     padding: 0 0 0 16px;
+    background-color: #ccc;
 }
 
 .logo {
@@ -17,6 +20,7 @@ body {
 
 .logo-img {
     max-width: 100%;
+    margin-left: 24px;
 }
 
 .menu-links {
@@ -38,4 +42,17 @@ body {
 }
 .menu-links li a:hover {
     transform: translateY(-2px);
+}
+
+.imagem-fixa {
+    max-width: 350px;
+}
+
+.imagem-fixa-01 {
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-bottom: 5px solid black;
+    justify-content: center;
+
 }
